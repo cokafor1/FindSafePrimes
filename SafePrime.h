@@ -10,6 +10,4 @@ using std::cin;
 
 ll f(ll a, ll b, ll c);
 ll fermat(ll p, ll a);
-
-//bool isPrime(ll a);
-bool isSafePrime(ll x, ll a);
+//bool isSafePrime(ll x, ll a);

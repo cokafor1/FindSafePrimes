@@ -44,7 +44,7 @@ int main() {
 	cout << "Enter num-";
 	cin >> num;
 
-	for (ll x = num; x < (num*num); x+=1) {
+	for (ll x = num; x < (num*num); x+=12) {
 		if (fermat(x, a) == 1) {
 			y = (2 * x) + 1;
 			if ((fermat(y, a) == 1)) { //check if both are prime
